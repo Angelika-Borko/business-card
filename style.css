@@ -1,0 +1,48 @@
+.body {
+  background-color: #2c2141;
+}
+
+.main {
+  background: #f8f8f8;
+  border-radius: 16px;
+  width: 624px;
+}
+
+.person {
+    display: flex;
+    align-content: flex-start;
+}
+
+.person__description {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 137% */
+  color: #000000;
+}
+
+.person__name {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 41px;
+  color: #000000;
+}
+
+.preson__picture {
+  border-radius: 50%;
+  width: 148px;
+  height: 148px;
+}
+
+.person__position {
+  font-family: Arial;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #545454;
+}
