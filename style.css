@@ -1,3 +1,13 @@
+ /* micro reset begin */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+ /* micro reset end */
+
 .body {
   background-color: #2c2141;
   display: flex;
@@ -11,6 +21,7 @@
   border-radius: 16px;
   width: 624px;
   margin: 16px;
+  padding: 32px;
 }
 
 .person {
@@ -28,7 +39,6 @@
   color: #000000;
   margin: 0px;
   padding-bottom: 22px;
-  padding-right: 32px;
 }
 
 .person__description--web {
@@ -40,8 +50,6 @@
   /* or 137% */
   color: #000000;
   margin: 0px;
-  padding-bottom: 54px;
-  padding-right: 32px;
 }
 
 .person__name {
@@ -51,7 +59,6 @@
   font-size: 36px;
   line-height: 41px;
   color: #000000;
-  padding-top: 32px;
   margin: 0px;
 }
 
@@ -59,7 +66,7 @@
   border-radius: 50%;
   width: 148px;
   height: 148px;
-  padding: 32px;
+  padding-right: 32px;
 }
 
 .person__position {
