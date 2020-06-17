@@ -14,13 +14,13 @@ html {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  margin: 16px;
 }
 
 .main {
   background: #f8f8f8;
   border-radius: 16px;
   width: 624px;
-  margin: 16px;
   padding: 32px;
 }
 
@@ -39,6 +39,7 @@ html {
   color: #000000;
   margin: 0px;
   padding-bottom: 22px;
+  padding-left: 32px
 }
 
 .person__description--web {
@@ -50,6 +51,11 @@ html {
   /* or 137% */
   color: #000000;
   margin: 0px;
+  padding-left: 32px
+}
+
+.person__link {
+  color: #E20613;
 }
 
 .person__name {
@@ -60,13 +66,13 @@ html {
   line-height: 41px;
   color: #000000;
   margin: 0px;
+  padding-left: 32px
 }
 
 .person__picture {
   border-radius: 50%;
   width: 148px;
   height: 148px;
-  padding-right: 32px;
 }
 
 .person__position {
@@ -78,4 +84,11 @@ html {
   color: #545454;
   margin: 0px;
   padding-bottom: 24px;
+  padding-left: 32px
+}
+
+.special {
+  color: #ED6D05;
+  font-style: normal;
+  font-weight: normal;
 }
